@@ -1,10 +1,12 @@
 import { useState } from "react";
+import Range from "./range";
 import "./index.css";
 
 export default function App() {
   return (
     <div className="App">
       <Counter />
+      <Range />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 .container {
   width: 600px;
-  height: 300px;
+  height: 250px;
   background-color: antiquewhite;
-  margin: 70px auto;
+  margin: 40px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,6 +12,12 @@
 .container button {
   padding: 5px 15px;
   font-size: 1.5rem;
+}
+
+input {
+  margin: 0 10px;
+  padding: 5px;
+  font-size: 1.3rem;
 }
 
 button:hover {
