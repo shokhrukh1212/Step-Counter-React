@@ -1,4 +1,4 @@
-[Live Demo](https://khon-step-counter-react.netlify.app)
+[Live Demo](https://khon-step-counter-react.netlify.app){:target="\_blank"}
 
 ## Step 1: Choose a step
 
