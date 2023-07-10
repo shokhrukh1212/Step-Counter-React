@@ -1,3 +1,7 @@
+## Step 1: Choose a step
+
+## Step 2: Increase or decrease count depending on step you've chosenX
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
