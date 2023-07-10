@@ -1,6 +1,6 @@
 ## Step 1: Choose a step
 
-## Step 2: Increase or decrease count depending on step you've chosenX
+## Step 2: Increase or decrease count depending on the step you've chosen
 
 # Getting Started with Create React App
 
