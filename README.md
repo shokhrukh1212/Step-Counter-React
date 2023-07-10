@@ -1,3 +1,5 @@
+[Live Demo](khon-step-counter-react.netlify.app)
+
 ## Step 1: Choose a step
 
 ## Step 2: Increase or decrease count or input depending on the step you've chosen
