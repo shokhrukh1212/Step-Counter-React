@@ -4,7 +4,6 @@ import "./index.css";
 export default function App() {
   return (
     <div className="App">
-      <br />
       <Counter />
     </div>
   );
@@ -18,7 +17,7 @@ function Counter() {
 
   return (
     <div className="container">
-      <div>
+      <div className="step">
         <button
           onClick={() =>
             stateStep((s) => {
@@ -32,13 +31,11 @@ function Counter() {
         <span style={{ margin: "0px 10px" }}>Step: {step}</span>
         <button onClick={() => stateStep((s) => s + 1)}>+</button>
       </div>
-      <br />
-      <div>
+      <div className="count">
         <button onClick={() => stateCount((s) => s - step)}>-</button>
         <span style={{ margin: "0px 10px" }}>Count: {count}</span>
         <button onClick={() => stateCount((s) => s + step)}>+</button>
       </div>
-      <br />
       <div>
         <span>
           {count === 0
@@ -51,7 +48,11 @@ function Counter() {
             ? `${Math.abs(count)} day ago was `
             : `${Math.abs(count)} days ago was `}
         </span>
-        <span>{date.toDateString()}</span>
+        <span>
+          <b>
+            <i>{date.toDateString()}</i>
+          </b>
+        </span>
       </div>
     </div>
   );

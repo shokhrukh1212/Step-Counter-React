@@ -19,3 +19,8 @@ button:hover {
   background-color: blueviolet;
   color: azure;
 }
+
+.container > .step,
+.count {
+  margin-bottom: 20px;
+}
