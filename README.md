@@ -1,4 +1,4 @@
-[Live Demo](khon-step-counter-react.netlify.app)
+[Live Demo](https://khon-step-counter-react.netlify.app)
 
 ## Step 1: Choose a step
 
